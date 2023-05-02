@@ -1,0 +1,32 @@
+[
+  {
+    "model": "imagine_api.plan",
+    "pk": "1",
+    "fields": {
+      "name": "Basic",
+      "thumbnail_sizes": "[\"200\"]",
+      "original_link": "False",
+      "expiring_links": "False"
+    }
+  },
+  {
+    "model": "imagine_api.plan",
+    "pk": "2",
+    "fields": {
+      "name": "Premium",
+      "thumbnail_sizes": "[\"200\", \"400\"]",
+      "original_link": "True",
+      "expiring_links": "False"
+    }
+  },
+  {
+    "model": "imagine_api.plan",
+    "pk": "3",
+    "fields": {
+      "name": "Enterprise",
+      "thumbnail_sizes": "[\"200\", \"400\"]",
+      "original_link": "True",
+      "expiring_links": "True"
+    }
+  }
+]

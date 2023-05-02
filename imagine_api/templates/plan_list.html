@@ -1,0 +1,9 @@
+{# <html><body>
+<h1>Welcome</h1>
+<h1>List of current plans in Postgresql database:</h1>
+<ul>
+    {% for plan in plans     %}
+    <li>{{ plan.name }}</li>
+    {% endfor %}
+</ul>
+</body></html> #}

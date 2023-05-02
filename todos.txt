@@ -1,0 +1,6 @@
+1. Create an update to the upser_profile view so that user can update the plan.
+2. Finishing off generation of expiry links 
+3. Tests for the custom function 
+4. Validations
+5. Add S3 bucket for imporving perfomance
+
